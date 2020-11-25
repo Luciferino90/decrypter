@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: decrypter
+
+configuration:
+  separator: ","
+  pathToFileHeader: pathToFile
+  encryptedPasswordHeader: encryptedPassword
+  publicKeyHeader: publicKey

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: decrypter
+  profiles:
+    active: test
+
+configuration:
+  separator: ","
+  pathToFileHeader: pathToFile
+  encryptedPasswordHeader: encryptedPassword
+  publicKeyHeader: publicKey
